@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: poppins, sans-serif;
+}
+
+body{
+	width: 100%;
+	min-height: 150vh;
+	background: #0399f4;
+	/*background: url(https://a0.muscache.com/im/pictures/miso/Hosting-598289084005563595/original/5037ecff-e315-4464-9c85-64503ae5b6ea.jpeg?im_w=720) no-repeat;*/
+}
+
+.landingtitle{
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/*.landingtitle::before{
+	content: '';
+	position: absolute;
+	background: #555;
+	width: 80%;
+	height: 50vh;
+	filter: blur(25px);
+	z-index: -5;
+	margin: auto;
+}*/
+
+.c1{
+	height: 75vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.c2{
+	width: fit-content;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.ic{
+	width: 25em;
+	margin: 25px;
+	cursor: pointer;
+}
+
+.ic .card img{
+	height: 15em;
+}
+
+.c3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	padding: 50px;
+}
+
+.map-card{
+	width: fit-content;
+	height: fit-content;
+	padding: 20px;
+	position: fixed;
+	bottom: 10%;
+	background: #fff;
+	border-radius: 50px;
+	right: 50%;
+	transform: translateX(50%);
+	cursor: pointer;
+	border: 2px solid #eee;
+	z-index: 10;
+}
+
+.map-card a{
+	text-decoration: none;
+}
+
+.details-card{
+	top: 50vh;
+	padding: 50px 10px 50px 10px;
+
+}
+
+.chat-card{
+	width: fit-content;
+	height: fit-content;
+	padding: 20px;
+	position: fixed;
+	bottom: 10%;
+	background: #fff;
+	border-radius: 50px;
+	right: 5%;
+	cursor: pointer;
+	border: 2px solid #eee;
+	z-index: 10;
+}
+
+.booking{
+	position: relative;
+	top: 10vh;
+	border-radius: 10px;
+}
